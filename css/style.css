@@ -1,102 +1,106 @@
 body{
-    font-family: Roboto;
-    color: #434455;
+    font-family: "Roboto", "Montserrat", "Raleway", sans-serif;
+    color: ;
     background-color:  #FFF;;
     line-height: 1.5;
 }
 h1, h2, h3,{
-    font-family: Roboto, Montserrat, Raleway, sans-serif;
+    font-family: "Roboto";
          
 }
 ul{
     list-style-type: none;
 }
-.accent{
-    color: #4D5AE5;
+.logo-span-header{
+    color: #2E2F42;
     }
- .accent-two{
- color: #2E2F42;
- }
-.accent-two, .accent{
-        font-family: Raleway;
+ 
+.logo{
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 21px;
-        letter-spacing: 0.54px;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
+        line-height: 1.17;
+        color: #4d5ae5;
         }
-    .post-menu{
+.post-menu{
         color: #2E2F42;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 0.32px;
     }
-    .post-menu-link: hover, .post-menu-link: active{
+.post-menu-link{
+        color: #2e2f42;
+    }
+.post-menu-link:hover, .post-menu-link :active{
          color: #404BBF;
     }
+.post-social{
+        font-style: normal;
+    }
 
-    .post-social-links{
+.post-social-links{
         color: #434455;
         font-size: 16px;
         letter-spacing: 0.32px;
+        
     }
-    .post-social-links: hover{
-        color: #404BBF;
+.post-social-links:hover, .post-social-links:focus{
+        color: #404bbf;
 
     }
-    .post-section{
+.post-section{
         background: #2E2F42;
-        width: 1440px;
-        height: 600px;
         flex-shrink: 0;
     }
-    .post-section-title{
+.post-section-title{
         color: #FFF;
         text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
         letter-spacing: 1.12px;
-        width: 496px;
+        line-height: 1.07
     }
-    button{
-        border-radius: 4px;
+.post-section-button{
         background: #4D5AE5;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        display: inline-flex;
-        padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
         cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
     }
-    button: hover{
+    
+.post-section-button:hover, .post-section-button:focus{
         color: #404BBF;
 
     }
-    .accent-button{
+.accent-button{
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
     }
-    .post-title-secondary{
+.post-title-secondary{
         color: #2E2F42;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0.4px;
-        width: 264px;
+        line-height: 1.11
+        
     }
-    .post-text{
+.post-text{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
-    .post-section-three{
+.post-section-three{
         background: #F4F4FD;
     }
-    .post-title{
+.post-title{
         color: #2E2F42;
         text-align: center;
         font-size: 36px;
@@ -105,21 +109,23 @@ ul{
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
-    footer{
+.post-footer{
         background: #2E2F42;
     }
-    .post-footer-text{
-        color: #F4F4FD;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-    }
-    .accent-three{
-        color: #F4F4FD;
+.logo-span-footer{
+    color: #F4F4FD;
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+}
+    .post-footer-text{
+        color: #F4F4FD;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
     }
+    
+    
