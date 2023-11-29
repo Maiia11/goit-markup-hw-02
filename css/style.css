@@ -98,10 +98,11 @@ ul{
     color: #2E2F42;
     font-size: 36px;
     font-weight: 500;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+
 }
 .post-section-three{
     background: #F4F4FD;
@@ -125,7 +126,7 @@ ul{
 color: #2E2F42;
 font-size: 36px;
 ont-weight: 500;
-letter-spacing: 0.4px;
+letter-spacing: 0.02em;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
