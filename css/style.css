@@ -2,10 +2,11 @@ body{
     font-family: Roboto;
     color: #434455;
     background-color:  #FFF;;
-    line-height: 24px;
+    line-height: 1.5;
 }
 h1, h2, h3,{
-    font-family: Roboto;
+    font-family: Roboto, Montserrat, Raleway, sans-serif;
+         
 }
 ul{
     list-style-type: none;
@@ -19,7 +20,6 @@ ul{
 .accent-two, .accent{
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.54px;
@@ -28,16 +28,21 @@ ul{
     .post-menu{
         color: #2E2F42;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         letter-spacing: 0.32px;
     }
+    .post-menu-link: hover, .post-menu-link: active{
+         color: #404BBF;
+    }
+
     .post-social-links{
         color: #434455;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         letter-spacing: 0.32px;
+    }
+    .post-social-links: hover{
+        color: #404BBF;
+
     }
     .post-section{
         background: #2E2F42;
@@ -49,7 +54,6 @@ ul{
         color: #FFF;
         text-align: center;
         font-size: 56px;
-        font-style: normal;
         font-weight: 700;
         line-height: 60px;
         letter-spacing: 1.12px;
@@ -63,12 +67,15 @@ ul{
         padding: 16px 32px;
         align-items: flex-start;
         gap: 10px;
+        cursor: pointer;
+    }
+    button: hover{
+        color: #404BBF;
 
     }
     .accent-button{
         color: #FFF;
         font-size: 16px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.64px;
@@ -76,7 +83,6 @@ ul{
     .post-title-secondary{
         color: #2E2F42;
         font-size: 20px;
-        font-style: normal;
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
@@ -84,8 +90,6 @@ ul{
     }
     .post-text{
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
@@ -96,7 +100,6 @@ ul{
         color: #2E2F42;
         text-align: center;
         font-size: 36px;
-        font-style: normal;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.72px;
@@ -108,8 +111,6 @@ ul{
     .post-footer-text{
         color: #F4F4FD;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.32px;
     }
@@ -117,7 +118,6 @@ ul{
         color: #F4F4FD;
         font-family: Raleway;
         font-size: 18px;
-        font-style: normal;
         font-weight: 700;
         line-height: 21px;
         letter-spacing: 0.54px;
