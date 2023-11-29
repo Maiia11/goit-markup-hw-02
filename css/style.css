@@ -25,27 +25,27 @@ ul{
         letter-spacing: 0.54px;
         text-transform: uppercase;
         }
-    .menu{
+    .post-menu{
         color: #2E2F42;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         letter-spacing: 0.32px;
     }
-    .social-links{
+    .post-social-links{
         color: #434455;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         letter-spacing: 0.32px;
     }
-    .post{
+    .post-section{
         background: #2E2F42;
         width: 1440px;
         height: 600px;
         flex-shrink: 0;
     }
-    .post-title{
+    .post-section-title{
         color: #FFF;
         text-align: center;
         font-size: 56px;
@@ -63,7 +63,7 @@ ul{
         padding: 16px 32px;
         align-items: flex-start;
         gap: 10px;
-        
+
     }
     .accent-button{
         color: #FFF;
@@ -73,4 +73,19 @@ ul{
         line-height: 24px;
         letter-spacing: 0.64px;
     }
-    
+    .post-title-secondary{
+        color: #2E2F42;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        width: 264px;
+    }
+    .post-text{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
